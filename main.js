@@ -7,4 +7,7 @@ $(document).ready(function() {
         $(novoItem).appendTo('ul')
         $('#nome-da-tarefa').val('')
 })
+        $('ul').click( function () { 
+        $('ul').toggleClass("item")
+})
 })
